@@ -1,4 +1,5 @@
 package me.skyla.tutmod;
+import me.skyla.tutmod.core.blocks.BlockInit;
 import me.skyla.tutmod.core.items.ItemInit;
 import net.fabricmc.api.ModInitializer;
 import org.slf4j.Logger;
@@ -14,5 +15,6 @@ public class ExampleMod implements ModInitializer {
     @Override
     public void onInitialize() {
         ItemInit.registerModItems();
+        BlockInit.registerModBlocks();
     }
 }

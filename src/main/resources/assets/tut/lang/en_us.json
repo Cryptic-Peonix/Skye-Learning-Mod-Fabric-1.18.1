@@ -1,4 +1,6 @@
 {
   "item.tut.tin_ingot": "Tin Ingot",
-  "item.tut.tin_nugget": "Tin Nugget"
+  "item.tut.tin_nugget": "Tin Nugget",
+
+  "block.tut.tin_block": "Tin Block"
 }
